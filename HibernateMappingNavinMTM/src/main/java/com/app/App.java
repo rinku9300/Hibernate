@@ -25,6 +25,8 @@ public class App
         stud.setName("Arun");
         stud.setMarks(56);
         stud.getLaptop().add(lap);
+        
+        System.out.println("Hello");
              
         Session session=factory.openSession();
         Transaction tx=session.beginTransaction();
